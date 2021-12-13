@@ -1,0 +1,27 @@
+About current Framework
+
+
+Page Object Model : Is a Design Pattern
+Data Driven Approach
+Libraries : Generic Functions
+Test Driven Development 
+
+===> Hybrid Framework + Page Object Model (Single Responsibilty Principal)
+
+SRP = Each single class/Page is responsible for a specific tasks/action
+
+
+Page Object Model- what do you mean byt POM and what is the properties of it?
+-for every page in website/mobile app we create separate page java class. 
+-never use assertions in page class
+-page actions need to provide the page behaviour
+-page locators (BY) should be private and will be accessed via public page actions.
+-user encapsulation concept
+Tests- can be created in seperate folder for each page class
+-user test client according to the language.
+-Asssertions should be given here
+-never use driver API's 
+
+
+
+
